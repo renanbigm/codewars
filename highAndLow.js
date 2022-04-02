@@ -1,24 +1,14 @@
-function highAndLow(numbers){
+function highAndLow(numbers){ /* mostra qual o maior e o menor número dentro de uma string de números*/
   
-  let elements = numbers.split(" ");
+  let elements = numbers.split("");
   let result = [];
   
-<<<<<<< HEAD
-    for (let i = 0; i < elements.length; i++) {
-      result.push(elements[i]); 
-    }
-    return Math.max(...result) + " " + Math.min(...result); 
-}
-
-console.log(highAndLow("98768135"))
-=======
   for (let i = 0; i < elements.length; i++) {
-    result.push(elements[i]); 
+    result.push(elements[i]); /* poe um elemento novo no array */ 
   }
-  return Math.max(...result) + " " + Math.min(...result); 
+  console.log(Math.max(...result) + " " + Math.min(...result)); /* pega maior e menor */
 }
+highAndLow("91234857")
 
 
-
->>>>>>> 908438d4ed6791819c23c44ce3f0514390ebcbdf
   

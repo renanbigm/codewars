@@ -1,4 +1,4 @@
-function longest(s1, s2){
+function orderSequence(s1, s2){
   let conc = s1 + s2; // soma das duas strings
   let newA = conc.split(""); // transforma cada elemento da string em um array
   let mySet = [...new Set(newA)]; // retira os elementos repetidos e mantem a forma de array 

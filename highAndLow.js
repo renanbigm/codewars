@@ -7,5 +7,7 @@ function highAndLow(numbers){
       result.push(elements[i]); 
     }
     return Math.max(...result) + " " + Math.min(...result); 
-  }
+}
+
+console.log(highAndLow("98768135"))
   
